@@ -1,0 +1,390 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: CompCert
+Upstream-Contact: compcert@yquem.inria.fr
+Source: https://github.com/AbsInt/CompCert
+Copyright:
+ 2004-2014 Institut National de Recherche en Informatique et en Automatique
+  (INRIA)
+License: INRIA-non-commercial
+Disclaimer:
+ This package is not part of the Debian distribution.  It is provided in
+ the non-free archive area as a convenience to Debian users.
+ .
+ The contents of this package cannot be distributed as part of the Debian
+ distribution because the INRIA Non-Commercial License Agreement does not allow
+ commercial use.
+
+Files: *
+Copyright:
+ 2004-2014 Institut National de Recherche en Informatique et en Automatique
+License: INRIA-non-commercial
+
+Files:
+ arm/Archi.v
+ arm/CBuiltins.ml
+ backend/Cminor.v
+ backend/CMlexer.mli backend/CMlexer.mll
+ backend/CMparser.mly
+ backend/CMtypecheck.ml backend/CMtypecheck.mli
+ backend/PrintCminor.ml
+ cfrontend/C2C.ml
+ cfrontend/Clight.v
+ cfrontend/ClightBigstep.v
+ cfrontend/Cop.v
+ cfrontend/CPragmas.ml
+ cfrontend/Csem.v
+ cfrontend/Cstrategy.v
+ cfrontend/Csyntax.v
+ cfrontend/Ctypes.v
+ cfrontend/PrintClight.ml
+ cfrontend/PrintCsyntax.ml
+ common/AST.v
+ common/Behaviors.v
+ common/Errors.v
+ common/Events.v
+ common/Globalenvs.v
+ common/Memdata.v
+ common/Memory.v
+ common/Memtype.v
+ common/Sections.ml common/Sections.mli
+ common/Smallstep.v
+ common/Subtyping.v
+ common/Switch.v
+ common/Unityping.v
+ common/Values.v
+ cparser/*
+ doc/coq2html.mll
+ exportclight/*
+ ia32/Archi.v
+ ia32/CBuiltins.ml
+ lib/*
+ Makefile
+ powerpc/Archi.v
+ powerpc/CBuiltins.ml
+Copyright:
+ 2004-2014 Institut National de Recherche en Informatique et en Automatique
+License: INRIA-non-commercial or GPL-2+
+
+Files: debian/*
+Copyright: 2015 Benjamin Barenblat <bbaren@mit.edu>
+License: GPL-3+
+
+Files: flocq/*
+Copyright:
+ 2010-2013 Sylvie Boldo
+ 2010-2013 Guillaume Melquiond
+License: LGPL-3+
+
+Files: runtime/arm/* runtime/ia32/* runtime/powerpc/* runtime/test/*
+Copyright: 2013 Institut National de Recherche en Informatique et en Automatique
+License: BSD-3-clause
+
+Files: test/c/aes.c
+Copyright: none (public domain)
+License: public-domain
+ The authors of this file claim that it is "in the public domain".  No further
+ clarification is provided.
+
+Files: test/c/almabench.c
+Copyright: none (public domain)
+License: public-domain
+ The author writes: "No rights reserved.  This is public domain software, for
+ use by anyone."
+
+Files:
+ test/c/binarytrees.c
+ test/c/fannkuch.c
+ test/c/knucleotide.c
+ test/c/mandelbrot.c
+ test/c/nbody.c
+ test/c/nsieve.c test/c/nsievebits.c
+ test/c/spectral.c
+Copyright:
+ 2004-2008 Brent Fulgham
+ 2005-2015 Isaac Gouy
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+   - Redistributions of source code must retain the above copyright notice, this
+     list of conditions and the following disclaimer.
+   - Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+   - Neither the name of "The Computer Language Benchmarks Game" nor the name of
+     "The Computer Language Shootout Benchmarks" nor the names of its
+     contributors may be used to endorse or promote products derived from this
+     software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: test/c/bisect.c
+Copyright:
+ 1996 McGill University
+ 1996 McCAT System Group
+ 1996 ACAPS Benchmark Administrator <benadmin@acaps.cs.mcgill.ca>
+License: Free-simple
+ This program is free software; you can redistribute it and/or modify it
+ provided this copyright notice is maintained.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+Files: test/c/siphash24.c
+Copyright:
+ 2012 Jean-Philippe Aumasson <jeanphilippe.aumasson@gmail.com>
+ 2012 Daniel J. Bernstein <djb@cr.yp.to>
+License: CC0
+
+Files:
+ test/compression/arcode.c test/compression/arcode.h
+ test/compression/armain.c
+Copyright: 2004, 2006, 2007 Michael Dipperstein <mdipper@cs.ucsb.edu>
+License: LGPL-3+
+
+Files: test/compression/bitfile.c test/compression/bitfile.h
+Copyright: 2004-2007 Michael Dipperstein <mdipper@cs.ucsb.edu>
+License: LGPL-3+
+
+Files:
+ test/compression/lzdecode.c
+ test/compression/lzencode.c
+ test/compression/lzhash.c
+ test/compression/lzlocal.h
+ test/compression/lzss.h
+ test/compression/lzssmain.c
+ test/compression/lzvars.c
+Copyright: 2003-2007 Michael Dipperstein <mdipper@alumni.engr.ucsb.edu>
+License: LGPL-3+
+
+Files:
+ test/compression/lzwdecode.c
+ test/compression/lzwencode.c
+ test/compression/lzw.h
+ test/compression/lzwmain.c
+Copyright: 2005, 2007 Michael Dipperstein <mdipper@alumni.engr.ucsb.edu>
+License: LGPL-3+
+
+Files: test/compression/optlist.c test/compression/optlist.h
+Copyright: 2007 Michael Dipperstein <mdipper@alumni.engr.ucsb.edu>
+License: LGPL-3+
+
+Files: test/spass/*
+Copyright: 1996-2001 MPI für Informatik
+License: GPL-2+
+
+Files: test/spass/COPYING
+License: FSF-simple
+ Everyone is permitted to copy and distribute verbatim copies of this license
+ document, but changing it is not allowed.
+
+Files:
+ test/spass/dfgparser.c test/spass/dfgparser.h
+ test/spass/iaparser.c test/spass/iaparser.h
+Copyright: 1984, 1989, 1990, 2000-2002 Free Software Foundation, Inc.
+License: GPL-2+ with Bison-generated exception
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+     * Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above copyright notice,
+       this list of conditions and the following disclaimer in the documentation
+       and/or other materials provided with the distribution.
+     * Neither the name of the <organization> nor the names of its contributors
+       may be used to endorse or promote products derived from this software
+       without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License version
+ 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+ with Bison-generated exception
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 2, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
+ Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License version
+ 2 can be found in "/usr/share/common-licenses/GPL-2".
+ .
+ As a special exception, you may create a larger work that contains part or all
+ of the Bison parser skeleton and distribute that work under terms of your
+ choice, so long as that work isn't itself a parser generator using the skeleton
+ or a modified version thereof as a parser skeleton.  Alternatively, if you
+ modify or redistribute the parser skeleton itself, you may (at your option)
+ remove this special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public License without
+ this special exception.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation, either version 3 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License version
+ 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: INRIA-non-commercial
+ INRIA Non-Commercial License Agreement for the CompCert verified compiler
+ .
+ 1. Background: Institut National de Recherche en Informatique et en
+    Automatique (the "Provider") developed the CompCert verified
+    compiler (the "Software") and seeks to distribute the Software for
+    public use and benefit.
+ .
+ 2. Grant: The Provider hereby grants to you a revocable, nonexclusive,
+    nontransferable, royalty-free and worldwide license (the "License")
+    to use the Software solely for educational, research, or evaluation
+    purposes, in accordance with Paragraph 3 below and subject to the
+    terms and conditions of this License Agreement (the
+    "Agreement"). The License entitles you to use the Software to
+    conduct research or education and to create Derivative Works solely
+    for academic, non-commercial research endeavors of the Licensee (A
+    "Derivative Work" is a work that is a modification of, enhancement
+    to, derived from, or based upon the Software).
+ .
+ 3. Limitations on Use: The License is limited to noncommercial
+    use. Noncommercial use relates only to educational, research,
+    personal or evaluation purposes. Any other use is commercial use.
+    You may not use the Software in connection with any activities
+    which purpose is to procure a commercial gain to you or others.
+ .
+ 4. Limitations on Distribution: If you distribute the Software or any
+    derivative works of the Software, you will distribute them under
+    the same terms and conditions as in this License, and you will not
+    grant other rights to the Software or derivative works that are
+    different from those provided by this License.
+ .
+ 5. Ownership: The Software and the accompanying documentation are
+    licensed, not sold, to you. The Software is a proprietary product
+    of the Provider and is protected under French copyright law and
+    international treaty revisions. The Provider retains all rights not
+    specifically granted to you hereunder, including ownership of the
+    Software and all copyrights, trade secrets, or other intellectual
+    property rights in the Software and any accompanying information.
+ .
+ 6. Publication Credit: You agree to acknowledge the INRIA CompCert
+    research project with appropriate citations in any publication or
+    presentation containing research results obtained in whole or in
+    part through the use of the Software.
+ .
+ 7. Term of License: The License is effective upon receipt by you of
+    the Software and shall continue until terminated. The License will
+    terminate immediately without notice by the Provider if you fail to
+    comply with the terms and conditions of this Agreement. Upon
+    termination of this License, you shall immediately discontinue all
+    use of the Software provided hereunder, and return to the Provider
+    or destroy the original and all copies of all such Software. All of
+    your obligations under this Agreement shall survive the termination
+    of the License.
+ .
+ 8. Warranty: THE PROVIDER MAKES NO REPRESENTATIONS ABOUT THE
+    SUITABILITY, USE, OR PERFORMANCE OF THIS SOFTWARE OR ABOUT ANY
+    CONTENT OR INFORMATION MADE ACCESSIBLE BY THE SOFTWARE, FOR ANY
+    PURPOSE. THE SOFTWARE IS PROVIDED "AS IS," WITHOUT EXPRESS OR
+    IMPLIED WARRANTIES INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED
+    WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+    NONINFRINGEMENT WITH RESPECT TO THE SOFTWARE. THE PROVIDER IS NOT
+    OBLIGATED TO SUPPORT OR ISSUE UPDATES TO THE SOFTWARE.
+ .
+ 9. Limitation on Liability: This Software is provided free of charge
+    and, accordingly, the Provider shall not be liable under any theory
+    for any damages suffered by you or any user of the Software. UNDER
+    NO CIRCUMSTANCES SHALL PROVIDER BE LIABLE TO YOU OR ANY OTHER
+    PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR
+    CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT
+    LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER
+    FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER ECONOMIC LOSS OR
+    COMMERCIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THIS
+    SOFTWARE, EVEN IF PROVIDER SHALL HAVE BEEN INFORMED OF THE
+    POSSIBILITY OF SUCH DAMAGES, OR FOR ANY THIRD-PARTY CLAIMS.
+ .
+ 10. Disputes: The Parties agree to attempt to settle amicably any
+    controversy or claim arising under this Agreement or a breach of
+    this Agreement. Thereafter, both parties agree that all disputes
+    between them arising out of or relating to this Agreement, shall
+    be submitted to non-binding mediation unless the parties mutually
+    agree otherwise. All parties agree to exercise their best effort
+    in good faith to resolve all disputes in mediation. This Agreement
+    shall be governed and construed in accordance with the laws of
+    France.
+ .
+ 11. Entire Agreement: This Agreement contains the entire agreement
+    between the parties with respect to the subject matter hereof, and
+    it shall not be modified or amended except by an instrument in
+    writing signed by both parties hereto.
+
+License: LGPL-3+
+ This library is free software; you can redistribute it and/or modify it under
+ the terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation; either version 3 of the License, or (at your option) any
+ later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE. See the COPYING file for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License along
+ with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 3 can be found in "/usr/share/common-licenses/LGPL-3".

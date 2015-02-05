@@ -1,0 +1,2 @@
+version=3
+http://compcert.inria.fr/download.html release/compcert-([\d\.]*).tgz
