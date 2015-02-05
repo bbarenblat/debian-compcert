@@ -7,6 +7,11 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 %:
 	dh $@ --parallel
 
+.PHONY: override_dh_auto_clean
+override_dh_auto_clean:
+	touch Makefile.config
+	dh_auto_clean
+
 .PHONY: override_dh_builddeb
 override_dh_builddeb:
 	dh_builddeb -- -Zxz -z9
