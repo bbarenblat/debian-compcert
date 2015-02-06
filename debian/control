@@ -6,6 +6,7 @@ Build-Depends:
  coq (>= 8.4pl1),
  coq (<< 8.4pl6),
  debhelper (>= 9),
+ dh-exec,
  menhir (>= 20140422),
  ocaml-nox (>= 4.00.0)
 Standards-Version: 3.9.6

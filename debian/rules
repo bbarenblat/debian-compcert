@@ -22,6 +22,10 @@ override_dh_auto_build:
 	    -prefix /usr -libdir /usr/lib/$(DEB_HOST_MULTIARCH) ia32-linux
 	dh_auto_build
 
+.PHONY: override_dh_auto_install
+override_dh_auto_install:
+	/bin/true
+
 .PHONY: override_dh_builddeb
 override_dh_builddeb:
 	dh_builddeb -- -Zxz -z9
