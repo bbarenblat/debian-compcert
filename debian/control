@@ -11,6 +11,8 @@ Build-Depends:
  ocaml-nox (>= 4.00.0)
 Standards-Version: 3.9.6
 Homepage: http://compcert.inria.fr/
+Vcs-Browser: https://benjamin.barenblat.name/gitweb/?p=debian-compcert.git
+Vcs-Git: git://benjamin.barenblat.name/debian-compcert.git
 
 Package: compcert
 Architecture: i386
